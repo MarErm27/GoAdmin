@@ -5,15 +5,15 @@ import (
 	"mime/multipart"
 	"strings"
 
-	"github.com/MarErm27/go-admin/context"
-	"github.com/MarErm27/go-admin/modules/auth"
-	"github.com/MarErm27/go-admin/modules/config"
-	"github.com/MarErm27/go-admin/modules/db"
-	"github.com/MarErm27/go-admin/modules/errors"
-	"github.com/MarErm27/go-admin/plugins/admin/modules/constant"
-	"github.com/MarErm27/go-admin/plugins/admin/modules/form"
-	"github.com/MarErm27/go-admin/plugins/admin/modules/parameter"
-	"github.com/MarErm27/go-admin/plugins/admin/modules/table"
+	"github.com/MarErm27GoAdmin/context"
+	"github.com/MarErm27GoAdmin/modules/auth"
+	"github.com/MarErm27GoAdmin/modules/config"
+	"github.com/MarErm27GoAdmin/modules/db"
+	"github.com/MarErm27GoAdmin/modules/errors"
+	"github.com/MarErm27GoAdmin/plugins/admin/modules/constant"
+	"github.com/MarErm27GoAdmin/plugins/admin/modules/form"
+	"github.com/MarErm27GoAdmin/plugins/admin/modules/parameter"
+	"github.com/MarErm27GoAdmin/plugins/admin/modules/table"
 )
 
 type ShowNewFormParam struct {

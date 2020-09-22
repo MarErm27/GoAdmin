@@ -1,10 +1,10 @@
 package controller
 
 import (
-	"github.com/MarErm27/go-admin/context"
-	"github.com/MarErm27/go-admin/modules/logger"
-	"github.com/MarErm27/go-admin/plugins/admin/modules/guard"
-	"github.com/MarErm27/go-admin/plugins/admin/modules/response"
+	"github.com/MarErm27GoAdmin/context"
+	"github.com/MarErm27GoAdmin/modules/logger"
+	"github.com/MarErm27GoAdmin/plugins/admin/modules/guard"
+	"github.com/MarErm27GoAdmin/plugins/admin/modules/response"
 )
 
 // Delete delete the row from database.

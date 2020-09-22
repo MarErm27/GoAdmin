@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/MarErm27/go-admin/context"
-	"github.com/MarErm27/go-admin/modules/auth"
-	c "github.com/MarErm27/go-admin/modules/config"
-	"github.com/MarErm27/go-admin/modules/db"
-	"github.com/MarErm27/go-admin/modules/service"
-	"github.com/MarErm27/go-admin/plugins"
+	"github.com/MarErm27GoAdmin/context"
+	"github.com/MarErm27GoAdmin/modules/auth"
+	c "github.com/MarErm27GoAdmin/modules/config"
+	"github.com/MarErm27GoAdmin/modules/db"
+	"github.com/MarErm27GoAdmin/modules/service"
+	"github.com/MarErm27GoAdmin/plugins"
 )
 
 type Example struct {
