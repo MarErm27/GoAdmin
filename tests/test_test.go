@@ -22,3 +22,4 @@ func TestBlackBoxTestSuitOfBuiltInTables(t *testing.T) {
 		},
 	})
 }
+F

@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/MarErm27/go-admin">
+  <a href="https://github.com/MarErm27/GoAdmin">
     <img width="48%" alt="go-admin" src="http://quick.go-admin.cn/official/assets/imgs/github_logo.png">
   </a>
 </p>
@@ -8,11 +8,11 @@
 </p>
 <p align="center">
 <a href="https://travis-ci.com/MarErm27/go-admin"><img alt="Go Report Card" src="https://api.travis-ci.com/MarErm27/go-admin.svg?branch=master"></a>
-  <a href="https://goreportcard.com/report/github.com/MarErm27/go-admin"><img alt="Go Report Card" src="https://camo.githubusercontent.com/59eed852617e19c272a4a4764fd09c669957fe75/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f6368656e6867352f676f2d61646d696e"></a>
-  <a href="https://goreportcard.com/report/github.com/MarErm27/go-admin"><img alt="golang" src="https://img.shields.io/badge/awesome-golang-blue.svg"></a>
+  <a href="https://goreportcard.com/report/github.com/MarErm27/GoAdmin"><img alt="Go Report Card" src="https://camo.githubusercontent.com/59eed852617e19c272a4a4764fd09c669957fe75/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f6368656e6867352f676f2d61646d696e"></a>
+  <a href="https://goreportcard.com/report/github.com/MarErm27/GoAdmin"><img alt="golang" src="https://img.shields.io/badge/awesome-golang-blue.svg"></a>
   <a href="https://t.me/joinchat/NlyH6Bch2QARZkArithKvg" rel="nofollow"><img alt="telegram" src="https://img.shields.io/badge/chat%20on-telegram-blue" style="max-width:100%;"></a>
   <a href="https://shang.qq.com/wpa/qunwpa?idkey=ab18729bba609c220f31516a4eb9fce27f582458bd9a865b46523adb5632b873"><img alt="qq群" src="https://img.shields.io/badge/QQ-874825430-yellow.svg"></a>
-  <a href="https://godoc.org/github.com/MarErm27/go-admin" rel="nofollow"><img src="https://camo.githubusercontent.com/a9a286d43bdfff9fb41b88b25b35ea8edd2634fc/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f646572656b7061726b65722f64656c76653f7374617475732e737667" alt="GoDoc" data-canonical-src="https://godoc.org/github.com/derekparker/delve?status.svg" style="max-width:100%;"></a>
+  <a href="https://godoc.org/github.com/MarErm27/GoAdmin" rel="nofollow"><img src="https://camo.githubusercontent.com/a9a286d43bdfff9fb41b88b25b35ea8edd2634fc/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f646572656b7061726b65722f64656c76653f7374617475732e737667" alt="GoDoc" data-canonical-src="https://godoc.org/github.com/derekparker/delve?status.svg" style="max-width:100%;"></a>
   <a href="https://raw.githubusercontent.com/MarErm27/go-admin/master/LICENSE" rel="nofollow"><img src="https://img.shields.io/badge/license-Apache2.0-blue.svg" alt="license" data-canonical-src="https://img.shields.io/badge/license-Apache2.0-blue.svg" style="max-width:100%;"></a>
 </p>
 <p align="center">
@@ -48,7 +48,7 @@ GoAdmin+vue 例子： [https://github.com/MarErm27/goadmin-vue-example](https://
 
 ## 谁在使用GoAdmin
 
-[评论这个issue告诉我们](https://github.com/MarErm27/go-admin/issues/71).
+[评论这个issue告诉我们](https://github.com/MarErm27/GoAdmin/issues/71).
 
 ## 使用
 
@@ -56,7 +56,7 @@ GoAdmin+vue 例子： [https://github.com/MarErm27/goadmin-vue-example](https://
 
 ```shell
 $ mkdir new_project && cd new_project
-$ go install github.com/MarErm27/go-admin/adm
+$ go install github.com/MarErm27/GoAdmin/adm
 $ adm init -l cn
 ```
 
@@ -64,7 +64,7 @@ $ adm init -l cn
 
 ```shell
 $ mkdir new_project && cd new_project
-$ go install github.com/MarErm27/go-admin/adm
+$ go install github.com/MarErm27/GoAdmin/adm
 $ adm init web -l cn
 ```
 
@@ -88,17 +88,17 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	_ "github.com/MarErm27/go-admin/adapter/gin"
-	_ "github.com/MarErm27/go-admin/modules/db/drivers/mysql"
-	"github.com/MarErm27/go-admin/engine"
-	"github.com/MarErm27/go-admin/plugins/admin"
+	_ "github.com/MarErm27/GoAdmin/adapter/gin"
+	_ "github.com/MarErm27/GoAdmin/modules/db/drivers/mysql"
+	"github.com/MarErm27/GoAdmin/engine"
+	"github.com/MarErm27/GoAdmin/plugins/admin"
 	"github.com/MarErm27/themes/adminlte"
-	"github.com/MarErm27/go-admin/modules/config"
-	"github.com/MarErm27/go-admin/template"
-    	"github.com/MarErm27/go-admin/template/chartjs"
-    	"github.com/MarErm27/go-admin/template/types"
-	"github.com/MarErm27/go-admin/examples/datamodel"
-	"github.com/MarErm27/go-admin/modules/language"
+	"github.com/MarErm27/GoAdmin/modules/config"
+	"github.com/MarErm27/GoAdmin/template"
+    	"github.com/MarErm27/GoAdmin/template/chartjs"
+    	"github.com/MarErm27/GoAdmin/template/types"
+	"github.com/MarErm27/GoAdmin/examples/datamodel"
+	"github.com/MarErm27/GoAdmin/modules/language"
 )
 
 func main() {
@@ -159,7 +159,7 @@ func main() {
 </p>
 </details>
 
-更多框架的例子: [https://github.com/MarErm27/go-admin/tree/master/examples](https://github.com/MarErm27/go-admin/tree/master/examples)
+更多框架的例子: [https://github.com/MarErm27/GoAdmin/tree/master/examples](https://github.com/MarErm27/GoAdmin/tree/master/examples)
 
 ### 第三步：运行
 
@@ -183,7 +183,7 @@ GO111MODULE=on go run main.go
 
 <strong>QQ群</strong>：[874825430](https://jq.qq.com/?_wv=1027&k=CnLiDoT9)，记得备注加群来意
 
-这里是[开发计划](https://github.com/MarErm27/go-admin/projects)
+这里是[开发计划](https://github.com/MarErm27/GoAdmin/projects)
 
 <strong>[点击这里加微信群](http://quick.go-admin.cn/resource/wechat_qrcode.jpg)</strong>
 
