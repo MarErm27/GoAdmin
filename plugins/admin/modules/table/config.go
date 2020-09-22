@@ -1,7 +1,7 @@
 package table
 
 import (
-	"github.com/MarErm27GoAdmin/modules/db"
+	"github.com/MarErm27/GoAdmin/modules/db"
 )
 
 type Config struct {

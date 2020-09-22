@@ -1,10 +1,10 @@
 package example
 
 import (
-	"github.com/MarErm27GoAdmin/context"
-	"github.com/MarErm27GoAdmin/modules/auth"
-	"github.com/MarErm27GoAdmin/modules/db"
-	"github.com/MarErm27GoAdmin/modules/service"
+	"github.com/MarErm27/GoAdmin/context"
+	"github.com/MarErm27/GoAdmin/modules/auth"
+	"github.com/MarErm27/GoAdmin/modules/db"
+	"github.com/MarErm27/GoAdmin/modules/service"
 )
 
 func (e *Example) initRouter(prefix string, srv service.List) *context.App {

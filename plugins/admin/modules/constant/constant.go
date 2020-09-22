@@ -1,7 +1,7 @@
 package constant
 
 import (
-	"github.com/MarErm27GoAdmin/modules/constant"
+	"github.com/MarErm27/GoAdmin/modules/constant"
 )
 
 const (

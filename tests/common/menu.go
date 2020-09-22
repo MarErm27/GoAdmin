@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/MarErm27GoAdmin/modules/config"
-	"github.com/MarErm27GoAdmin/modules/language"
-	"github.com/MarErm27GoAdmin/plugins/admin/modules/constant"
-	"github.com/MarErm27GoAdmin/plugins/admin/modules/form"
+	"github.com/MarErm27/GoAdmin/modules/config"
+	"github.com/MarErm27/GoAdmin/modules/language"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/constant"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/form"
 	"github.com/gavv/httpexpect"
 )
 

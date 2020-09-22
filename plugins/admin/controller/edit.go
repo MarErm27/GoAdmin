@@ -22,7 +22,7 @@ import (
 	"github.com/MarErm27/GoAdmin/plugins/admin/modules/guard"
 	"github.com/MarErm27/GoAdmin/plugins/admin/modules/parameter"
 	"github.com/MarErm27/GoAdmin/template/types"
-	"github.com/MarErm27GoAdmin/template/types/form"
+	"github.com/MarErm27/GoAdmin/template/types/form"
 )
 
 // ShowForm show form page.

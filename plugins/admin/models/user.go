@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MarErm27GoAdmin/modules/config"
+	"github.com/MarErm27/GoAdmin/modules/config"
 	"github.com/MarErm27/go-admin/modules/db"
 	"github.com/MarErm27/go-admin/modules/db/dialect"
 	"github.com/MarErm27/go-admin/modules/logger"

@@ -5,10 +5,10 @@ package {{.Package}}
 
 import (
 	{{.ExtraImport}}
-	"github.com/MarErm27GoAdmin/context"
-	"github.com/MarErm27GoAdmin/modules/db"
-	"github.com/MarErm27GoAdmin/plugins/admin/modules/table"
-	"github.com/MarErm27GoAdmin/template/types/form"
+	"github.com/MarErm27/GoAdmin/context"
+	"github.com/MarErm27/GoAdmin/modules/db"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/table"
+	"github.com/MarErm27/GoAdmin/template/types/form"
 )
 
 func Get{{.TableTitle}}Table(ctx *context.Context) table.Table {

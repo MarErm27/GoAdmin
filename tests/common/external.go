@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/MarErm27GoAdmin/modules/config"
-	"github.com/MarErm27GoAdmin/plugins/admin/modules/constant"
+	"github.com/MarErm27/GoAdmin/modules/config"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/constant"
 	"github.com/gavv/httpexpect"
 )
 

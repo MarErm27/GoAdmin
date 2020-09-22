@@ -3,13 +3,13 @@ package datamodel
 import (
 	template2 "html/template"
 
-	"github.com/MarErm27GoAdmin/context"
-	"github.com/MarErm27GoAdmin/modules/db"
-	"github.com/MarErm27GoAdmin/plugins/admin/modules/table"
-	"github.com/MarErm27GoAdmin/template"
-	"github.com/MarErm27GoAdmin/template/types"
-	"github.com/MarErm27GoAdmin/template/types/form"
-	editType "github.com/MarErm27GoAdmin/template/types/table"
+	"github.com/MarErm27/GoAdmin/context"
+	"github.com/MarErm27/GoAdmin/modules/db"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/table"
+	"github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/types"
+	"github.com/MarErm27/GoAdmin/template/types/form"
+	editType "github.com/MarErm27/GoAdmin/template/types/table"
 )
 
 // GetPostsTable return the model of table posts.

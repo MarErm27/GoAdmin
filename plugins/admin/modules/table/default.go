@@ -11,17 +11,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/MarErm27GoAdmin/modules/db"
-	"github.com/MarErm27GoAdmin/modules/db/dialect"
-	errs "github.com/MarErm27GoAdmin/modules/errors"
-	"github.com/MarErm27GoAdmin/modules/language"
-	"github.com/MarErm27GoAdmin/modules/logger"
-	"github.com/MarErm27GoAdmin/plugins/admin/modules"
-	"github.com/MarErm27GoAdmin/plugins/admin/modules/constant"
-	"github.com/MarErm27GoAdmin/plugins/admin/modules/form"
-	"github.com/MarErm27GoAdmin/plugins/admin/modules/paginator"
-	"github.com/MarErm27GoAdmin/plugins/admin/modules/parameter"
-	"github.com/MarErm27GoAdmin/template/types"
+	"github.com/MarErm27/GoAdmin/modules/db"
+	"github.com/MarErm27/GoAdmin/modules/db/dialect"
+	errs "github.com/MarErm27/GoAdmin/modules/errors"
+	"github.com/MarErm27/GoAdmin/modules/language"
+	"github.com/MarErm27/GoAdmin/modules/logger"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/constant"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/form"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/paginator"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/parameter"
+	"github.com/MarErm27/GoAdmin/template/types"
 )
 
 type DefaultTable struct {
