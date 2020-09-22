@@ -2,32 +2,32 @@ package chi
 
 import (
 	// add chi adapter
-	_ "github.com/MarErm27/go-admin/adapter/chi"
-	"github.com/MarErm27/go-admin/modules/config"
-	"github.com/MarErm27/go-admin/modules/language"
-	"github.com/MarErm27/go-admin/plugins/admin/modules/table"
+	_ "github.com/MarErm27/GoAdmin/adapter/chi"
+	"github.com/MarErm27/GoAdmin/modules/config"
+	"github.com/MarErm27/GoAdmin/modules/language"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/table"
 	"github.com/MarErm27/themes/adminlte"
 
 	// add mysql driver
-	_ "github.com/MarErm27/go-admin/modules/db/drivers/mysql"
+	_ "github.com/MarErm27/GoAdmin/modules/db/drivers/mysql"
 	// add postgresql driver
-	_ "github.com/MarErm27/go-admin/modules/db/drivers/postgres"
+	_ "github.com/MarErm27/GoAdmin/modules/db/drivers/postgres"
 	// add sqlite driver
-	_ "github.com/MarErm27/go-admin/modules/db/drivers/sqlite"
+	_ "github.com/MarErm27/GoAdmin/modules/db/drivers/sqlite"
 	// add mssql driver
-	_ "github.com/MarErm27/go-admin/modules/db/drivers/mssql"
+	_ "github.com/MarErm27/GoAdmin/modules/db/drivers/mssql"
 	// add adminlte ui theme
 	_ "github.com/MarErm27/themes/adminlte"
 
 	"net/http"
 	"os"
 
-	"github.com/MarErm27/go-admin/engine"
-	"github.com/MarErm27/go-admin/plugins/admin"
-	"github.com/MarErm27/go-admin/plugins/example"
-	"github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/chartjs"
-	"github.com/MarErm27/go-admin/tests/tables"
+	"github.com/MarErm27/GoAdmin/engine"
+	"github.com/MarErm27/GoAdmin/plugins/admin"
+	"github.com/MarErm27/GoAdmin/plugins/example"
+	"github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/chartjs"
+	"github.com/MarErm27/GoAdmin/tests/tables"
 	"github.com/go-chi/chi"
 )
 

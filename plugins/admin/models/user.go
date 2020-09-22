@@ -9,11 +9,11 @@ import (
 	"time"
 
 	"github.com/MarErm27/GoAdmin/modules/config"
-	"github.com/MarErm27/go-admin/modules/db"
-	"github.com/MarErm27/go-admin/modules/db/dialect"
-	"github.com/MarErm27/go-admin/modules/logger"
-	"github.com/MarErm27/go-admin/modules/utils"
-	"github.com/MarErm27/go-admin/plugins/admin/modules/constant"
+	"github.com/MarErm27/GoAdmin/modules/db"
+	"github.com/MarErm27/GoAdmin/modules/db/dialect"
+	"github.com/MarErm27/GoAdmin/modules/logger"
+	"github.com/MarErm27/GoAdmin/modules/utils"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/constant"
 )
 
 // UserModel is user model structure.
