@@ -34,7 +34,7 @@ const loginTmpl = `{{define "login_theme1"}}
             <div class="col-md-4 col-md-offset-4">
                 <form action="##" onsubmit="return false" method="post" id="sign-up-form" class="fh5co-form animate-box"
                       data-animate-effect="fadeIn">
-                    <h2>{{.Title}}</h2>
+                    <h2>Admin portal</h2>
                     <div class="form-group">
                         <label for="username" class="sr-only">Username</label>
                         <input type="text" class="form-control" id="username" placeholder="{{lang "username"}}"
