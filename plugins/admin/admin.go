@@ -1,18 +1,18 @@
 package admin
 
 import (
-	"github.com/MarErm27/go-admin/context"
-	"github.com/MarErm27/go-admin/modules/config"
-	"github.com/MarErm27/go-admin/modules/service"
-	"github.com/MarErm27/go-admin/modules/system"
-	"github.com/MarErm27/go-admin/modules/utils"
-	"github.com/MarErm27/go-admin/plugins"
-	"github.com/MarErm27/go-admin/plugins/admin/controller"
-	"github.com/MarErm27/go-admin/plugins/admin/modules/guard"
-	"github.com/MarErm27/go-admin/plugins/admin/modules/table"
-	"github.com/MarErm27/go-admin/template/types"
-	"github.com/MarErm27/go-admin/template/types/action"
-	_ "github.com/MarErm27/go-admin/template/types/display"
+	"github.com/MarErm27/GoAdmin/context"
+	"github.com/MarErm27/GoAdmin/modules/config"
+	"github.com/MarErm27/GoAdmin/modules/service"
+	"github.com/MarErm27/GoAdmin/modules/system"
+	"github.com/MarErm27/GoAdmin/modules/utils"
+	"github.com/MarErm27/GoAdmin/plugins"
+	"github.com/MarErm27/GoAdmin/plugins/admin/controller"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/guard"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/table"
+	"github.com/MarErm27/GoAdmin/template/types"
+	"github.com/MarErm27/GoAdmin/template/types/action"
+	_ "github.com/MarErm27/GoAdmin/template/types/display"
 )
 
 // Admin is a GoAdmin plugin.

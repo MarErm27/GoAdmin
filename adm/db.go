@@ -4,8 +4,8 @@ import (
 	"strings"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/MarErm27/go-admin/modules/config"
-	"github.com/MarErm27/go-admin/modules/db"
+	"github.com/MarErm27/GoAdmin/modules/config"
+	"github.com/MarErm27/GoAdmin/modules/db"
 	"gopkg.in/ini.v1"
 )
 

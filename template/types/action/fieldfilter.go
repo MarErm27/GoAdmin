@@ -3,8 +3,8 @@ package action
 import (
 	"html/template"
 
-	"github.com/MarErm27/go-admin/plugins/admin/modules/form"
-	"github.com/MarErm27/go-admin/template/types"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/form"
+	"github.com/MarErm27/GoAdmin/template/types"
 )
 
 type FieldFilterAction struct {

@@ -6,14 +6,14 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/MarErm27/go-admin/context"
-	"github.com/MarErm27/go-admin/modules/config"
-	"github.com/MarErm27/go-admin/modules/constant"
-	"github.com/MarErm27/go-admin/modules/language"
-	"github.com/MarErm27/go-admin/modules/utils"
-	template2 "github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/icon"
-	"github.com/MarErm27/go-admin/template/types"
+	"github.com/MarErm27/GoAdmin/context"
+	"github.com/MarErm27/GoAdmin/modules/config"
+	"github.com/MarErm27/GoAdmin/modules/constant"
+	"github.com/MarErm27/GoAdmin/modules/language"
+	"github.com/MarErm27/GoAdmin/modules/utils"
+	template2 "github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/icon"
+	"github.com/MarErm27/GoAdmin/template/types"
 )
 
 type PopUpAction struct {

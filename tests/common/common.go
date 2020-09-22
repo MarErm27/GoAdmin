@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/MarErm27/go-admin/plugins/admin/modules/form"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/form"
 	"github.com/gavv/httpexpect"
 	"github.com/mgutz/ansi"
 )

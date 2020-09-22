@@ -3,17 +3,17 @@ package datamodel
 import (
 	"fmt"
 
-	"github.com/MarErm27/go-admin/context"
-	"github.com/MarErm27/go-admin/modules/db"
-	form2 "github.com/MarErm27/go-admin/plugins/admin/modules/form"
-	"github.com/MarErm27/go-admin/plugins/admin/modules/table"
-	"github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/icon"
-	"github.com/MarErm27/go-admin/template/types"
-	"github.com/MarErm27/go-admin/template/types/action"
-	"github.com/MarErm27/go-admin/template/types/form"
-	selection "github.com/MarErm27/go-admin/template/types/form/select"
-	editType "github.com/MarErm27/go-admin/template/types/table"
+	"github.com/MarErm27/GoAdmin/context"
+	"github.com/MarErm27/GoAdmin/modules/db"
+	form2 "github.com/MarErm27/GoAdmin/plugins/admin/modules/form"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/table"
+	"github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/icon"
+	"github.com/MarErm27/GoAdmin/template/types"
+	"github.com/MarErm27/GoAdmin/template/types/action"
+	"github.com/MarErm27/GoAdmin/template/types/form"
+	selection "github.com/MarErm27/GoAdmin/template/types/form/select"
+	editType "github.com/MarErm27/GoAdmin/template/types/table"
 )
 
 // GetUserTable return the model of table user.

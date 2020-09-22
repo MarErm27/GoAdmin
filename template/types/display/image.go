@@ -1,8 +1,8 @@
 package display
 
 import (
-	"github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/types"
+	"github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/types"
 )
 
 type Image struct {

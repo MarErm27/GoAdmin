@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/MarErm27/go-admin/modules/utils"
+	"github.com/MarErm27/GoAdmin/modules/utils"
 )
 
 func getThemeTemplate(moduleName, themeName string) {

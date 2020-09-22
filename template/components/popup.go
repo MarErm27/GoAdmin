@@ -3,7 +3,7 @@ package components
 import (
 	"html/template"
 
-	"github.com/MarErm27/go-admin/template/types"
+	"github.com/MarErm27/GoAdmin/template/types"
 )
 
 type PopupAttribute struct {

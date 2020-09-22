@@ -11,7 +11,7 @@ import (
 	"path"
 	"sync"
 
-	"github.com/MarErm27/go-admin/plugins/admin/modules"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules"
 )
 
 // Uploader is a file uploader which contains the method Upload.

@@ -1,13 +1,13 @@
 package tables
 
 import (
-	"github.com/MarErm27/go-admin/context"
-	"github.com/MarErm27/go-admin/modules/db"
-	"github.com/MarErm27/go-admin/plugins/admin/modules/table"
-	"github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/types"
-	"github.com/MarErm27/go-admin/template/types/form"
-	editType "github.com/MarErm27/go-admin/template/types/table"
+	"github.com/MarErm27/GoAdmin/context"
+	"github.com/MarErm27/GoAdmin/modules/db"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/table"
+	"github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/types"
+	"github.com/MarErm27/GoAdmin/template/types/form"
+	editType "github.com/MarErm27/GoAdmin/template/types/table"
 )
 
 // GetPostsTable return the model of table posts.

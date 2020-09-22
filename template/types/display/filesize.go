@@ -3,8 +3,8 @@ package display
 import (
 	"strconv"
 
-	"github.com/MarErm27/go-admin/modules/utils"
-	"github.com/MarErm27/go-admin/template/types"
+	"github.com/MarErm27/GoAdmin/modules/utils"
+	"github.com/MarErm27/GoAdmin/template/types"
 )
 
 type FileSize struct {

@@ -2,26 +2,26 @@ package gf
 
 import (
 	// add gf adapter
-	_ "github.com/MarErm27/go-admin/adapter/gf"
+	_ "github.com/MarErm27/GoAdmin/adapter/gf"
 	// add mysql driver
-	_ "github.com/MarErm27/go-admin/modules/db/drivers/mysql"
+	_ "github.com/MarErm27/GoAdmin/modules/db/drivers/mysql"
 	// add postgresql driver
-	_ "github.com/MarErm27/go-admin/modules/db/drivers/postgres"
+	_ "github.com/MarErm27/GoAdmin/modules/db/drivers/postgres"
 	// add sqlite driver
-	_ "github.com/MarErm27/go-admin/modules/db/drivers/sqlite"
+	_ "github.com/MarErm27/GoAdmin/modules/db/drivers/sqlite"
 	// add mssql driver
-	_ "github.com/MarErm27/go-admin/modules/db/drivers/mssql"
+	_ "github.com/MarErm27/GoAdmin/modules/db/drivers/mssql"
 	// add adminlte ui theme
 	_ "github.com/MarErm27/themes/adminlte"
 
 	"net/http"
 	"os"
 
-	"github.com/MarErm27/go-admin/engine"
-	"github.com/MarErm27/go-admin/plugins/admin"
-	"github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/chartjs"
-	"github.com/MarErm27/go-admin/tests/tables"
+	"github.com/MarErm27/GoAdmin/engine"
+	"github.com/MarErm27/GoAdmin/plugins/admin"
+	"github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/chartjs"
+	"github.com/MarErm27/GoAdmin/tests/tables"
 	"github.com/gogf/gf/frame/g"
 	"github.com/gogf/gf/net/ghttp"
 )

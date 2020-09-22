@@ -8,7 +8,7 @@ import (
 	"html/template"
 	"strings"
 
-	"github.com/MarErm27/go-admin/modules/config"
+	"github.com/MarErm27/GoAdmin/modules/config"
 	"golang.org/x/text/language"
 )
 

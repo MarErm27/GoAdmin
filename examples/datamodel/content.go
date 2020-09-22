@@ -3,11 +3,11 @@ package datamodel
 import (
 	"html/template"
 
-	"github.com/MarErm27/go-admin/context"
-	tmpl "github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/chartjs"
-	"github.com/MarErm27/go-admin/template/icon"
-	"github.com/MarErm27/go-admin/template/types"
+	"github.com/MarErm27/GoAdmin/context"
+	tmpl "github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/chartjs"
+	"github.com/MarErm27/GoAdmin/template/icon"
+	"github.com/MarErm27/GoAdmin/template/types"
 	"github.com/MarErm27/themes/adminlte/components/chart_legend"
 	"github.com/MarErm27/themes/adminlte/components/description"
 	"github.com/MarErm27/themes/adminlte/components/infobox"

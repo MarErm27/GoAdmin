@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/MarErm27/go-admin/modules/config"
+	"github.com/MarErm27/GoAdmin/modules/config"
 )
 
 // Dialect is methods set of different driver.

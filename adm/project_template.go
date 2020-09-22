@@ -10,13 +10,13 @@ import (
 	"os"
 	"os/signal"
 
-	_ "github.com/MarErm27/go-admin/adapter/gin"                    // web framework adapter
-	_ "github.com/MarErm27/go-admin/modules/db/drivers/{{.DriverModule}}" // sql driver
+	_ "github.com/MarErm27/GoAdmin/adapter/gin"                    // web framework adapter
+	_ "github.com/MarErm27/GoAdmin/modules/db/drivers/{{.DriverModule}}" // sql driver
 	_ "github.com/MarErm27/themes/{{.Theme}}"                       // ui theme
 
-	"github.com/MarErm27/go-admin/engine"
-	"github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/chartjs"
+	"github.com/MarErm27/GoAdmin/engine"
+	"github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/chartjs"
 	"github.com/gin-gonic/gin"
 	
 	"{{.Module}}/pages"
@@ -71,13 +71,13 @@ import (
 	"os"
 	"os/signal"
 
-	_ "github.com/MarErm27/go-admin/adapter/beego"                   // web framework adapter
-	_ "github.com/MarErm27/go-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
+	_ "github.com/MarErm27/GoAdmin/adapter/beego"                   // web framework adapter
+	_ "github.com/MarErm27/GoAdmin/modules/db/drivers/{{.DriverModule}}"  // sql driver
 	_ "github.com/MarErm27/themes/{{.Theme}}"                        // ui theme
 
-	"github.com/MarErm27/go-admin/engine"
-	"github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/chartjs"
+	"github.com/MarErm27/GoAdmin/engine"
+	"github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/chartjs"
 	"github.com/astaxie/beego"
 
 	"{{.Module}}/pages"
@@ -132,13 +132,13 @@ import (
 	"os"
 	"os/signal"
 
-	_ "github.com/MarErm27/go-admin/adapter/buffalo"                 // web framework adapter
-	_ "github.com/MarErm27/go-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
+	_ "github.com/MarErm27/GoAdmin/adapter/buffalo"                 // web framework adapter
+	_ "github.com/MarErm27/GoAdmin/modules/db/drivers/{{.DriverModule}}"  // sql driver
 	_ "github.com/MarErm27/themes/{{.Theme}}"                        // ui theme
 
-	"github.com/MarErm27/go-admin/engine"
-	"github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/chartjs"
+	"github.com/MarErm27/GoAdmin/engine"
+	"github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/chartjs"
 	"github.com/gobuffalo/buffalo"	
 
 	"{{.Module}}/pages"
@@ -198,13 +198,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	_ "github.com/MarErm27/go-admin/adapter/chi"                 // web framework adapter
-	_ "github.com/MarErm27/go-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
+	_ "github.com/MarErm27/GoAdmin/adapter/chi"                 // web framework adapter
+	_ "github.com/MarErm27/GoAdmin/modules/db/drivers/{{.DriverModule}}"  // sql driver
 	_ "github.com/MarErm27/themes/{{.Theme}}"                        // ui theme
 
-	"github.com/MarErm27/go-admin/engine"
-	"github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/chartjs"
+	"github.com/MarErm27/GoAdmin/engine"
+	"github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/chartjs"
 	"github.com/go-chi/chi"
 
 	"{{.Module}}/pages"
@@ -281,13 +281,13 @@ import (
 	"os"
 	"os/signal"
 
-	_ "github.com/MarErm27/go-admin/adapter/echo"                 // web framework adapter
-	_ "github.com/MarErm27/go-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
+	_ "github.com/MarErm27/GoAdmin/adapter/echo"                 // web framework adapter
+	_ "github.com/MarErm27/GoAdmin/modules/db/drivers/{{.DriverModule}}"  // sql driver
 	_ "github.com/MarErm27/themes/{{.Theme}}"                        // ui theme
 
-	"github.com/MarErm27/go-admin/engine"
-	"github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/chartjs"
+	"github.com/MarErm27/GoAdmin/engine"
+	"github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/chartjs"
 	"github.com/labstack/echo/v4"
 
 	"{{.Module}}/pages"
@@ -339,13 +339,13 @@ import (
 	"os"
 	"os/signal"
 
-	_ "github.com/MarErm27/go-admin/adapter/fasthttp"                 // web framework adapter
-	_ "github.com/MarErm27/go-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
+	_ "github.com/MarErm27/GoAdmin/adapter/fasthttp"                 // web framework adapter
+	_ "github.com/MarErm27/GoAdmin/modules/db/drivers/{{.DriverModule}}"  // sql driver
 	_ "github.com/MarErm27/themes/{{.Theme}}"                        // ui theme
 
-	"github.com/MarErm27/go-admin/engine"
-	"github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/chartjs"
+	"github.com/MarErm27/GoAdmin/engine"
+	"github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/chartjs"
 	"github.com/buaazp/fasthttprouter"
 	"github.com/valyala/fasthttp"
 
@@ -400,13 +400,13 @@ import (
 	"os"
 	"os/signal"
 
-	_ "github.com/MarErm27/go-admin/adapter/gf"                 // web framework adapter
-	_ "github.com/MarErm27/go-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
+	_ "github.com/MarErm27/GoAdmin/adapter/gf"                 // web framework adapter
+	_ "github.com/MarErm27/GoAdmin/modules/db/drivers/{{.DriverModule}}"  // sql driver
 	_ "github.com/MarErm27/themes/{{.Theme}}"                        // ui theme
 
-	"github.com/MarErm27/go-admin/engine"
-	"github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/chartjs"
+	"github.com/MarErm27/GoAdmin/engine"
+	"github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/chartjs"
 	"github.com/gogf/gf/frame/g"
 
 	"{{.Module}}/pages"
@@ -460,13 +460,13 @@ import (
 	"os"
 	"os/signal"
 
-	_ "github.com/MarErm27/go-admin/adapter/gorilla"                 // web framework adapter
-	_ "github.com/MarErm27/go-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
+	_ "github.com/MarErm27/GoAdmin/adapter/gorilla"                 // web framework adapter
+	_ "github.com/MarErm27/GoAdmin/modules/db/drivers/{{.DriverModule}}"  // sql driver
 	_ "github.com/MarErm27/themes/{{.Theme}}"                        // ui theme
 
-	"github.com/MarErm27/go-admin/engine"
-	"github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/chartjs"
+	"github.com/MarErm27/GoAdmin/engine"
+	"github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/chartjs"
 	"github.com/gorilla/mux"
 
 	"{{.Module}}/pages"
@@ -520,13 +520,13 @@ import (
 	"os"
 	"os/signal"
 
-	_ "github.com/MarErm27/go-admin/adapter/iris"                 // web framework adapter
-	_ "github.com/MarErm27/go-admin/modules/db/drivers/{{.DriverModule}}"  // sql driver
+	_ "github.com/MarErm27/GoAdmin/adapter/iris"                 // web framework adapter
+	_ "github.com/MarErm27/GoAdmin/modules/db/drivers/{{.DriverModule}}"  // sql driver
 	_ "github.com/MarErm27/themes/{{.Theme}}"                        // ui theme
 
-	"github.com/MarErm27/go-admin/engine"
-	"github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/chartjs"
+	"github.com/MarErm27/GoAdmin/engine"
+	"github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/chartjs"
 	"github.com/kataras/iris/v12"
 
 	"{{.Module}}/pages"
@@ -580,11 +580,11 @@ func startServer() {
 var swordIndexPage = []byte(`package pages
 
 import (
-	"github.com/MarErm27/go-admin/context"
-	"github.com/MarErm27/go-admin/modules/config"
-	template2 "github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/chartjs"
-	"github.com/MarErm27/go-admin/template/types"
+	"github.com/MarErm27/GoAdmin/context"
+	"github.com/MarErm27/GoAdmin/modules/config"
+	template2 "github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/chartjs"
+	"github.com/MarErm27/GoAdmin/template/types"
 	"github.com/MarErm27/themes/sword/components/card"
 	"github.com/MarErm27/themes/sword/components/chart_legend"
 	"github.com/MarErm27/themes/sword/components/description"
@@ -853,11 +853,11 @@ like Aldus PageMaker including versions of Lorem Ipsum.
 var adminlteIndexPage = []byte(`package pages
 
 import (
-	"github.com/MarErm27/go-admin/context"
-	tmpl "github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/chartjs"
-	"github.com/MarErm27/go-admin/template/icon"
-	"github.com/MarErm27/go-admin/template/types"
+	"github.com/MarErm27/GoAdmin/context"
+	tmpl "github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/chartjs"
+	"github.com/MarErm27/GoAdmin/template/icon"
+	"github.com/MarErm27/GoAdmin/template/types"
 	"github.com/MarErm27/themes/adminlte/components/chart_legend"
 	"github.com/MarErm27/themes/adminlte/components/description"
 	"github.com/MarErm27/themes/adminlte/components/infobox"
@@ -1249,11 +1249,11 @@ var mainTest = []byte(`package main
 
 import (
 	"./tables"
-	"github.com/MarErm27/go-admin/modules/config"
-	"github.com/MarErm27/go-admin/tests"
-	"github.com/MarErm27/go-admin/tests/common"
-	"github.com/MarErm27/go-admin/tests/frameworks/gin"
-	"github.com/MarErm27/go-admin/tests/web"
+	"github.com/MarErm27/GoAdmin/modules/config"
+	"github.com/MarErm27/GoAdmin/tests"
+	"github.com/MarErm27/GoAdmin/tests/common"
+	"github.com/MarErm27/GoAdmin/tests/frameworks/gin"
+	"github.com/MarErm27/GoAdmin/tests/web"
 	"github.com/gavv/httpexpect"
 	"log"
 	"testing"
@@ -1297,11 +1297,11 @@ var mainTestCN = []byte(`package main
 
 import (
 	"./tables"
-	"github.com/MarErm27/go-admin/modules/config"
-	"github.com/MarErm27/go-admin/tests"
-	"github.com/MarErm27/go-admin/tests/common"
-	"github.com/MarErm27/go-admin/tests/frameworks/gin"
-	"github.com/MarErm27/go-admin/tests/web"
+	"github.com/MarErm27/GoAdmin/modules/config"
+	"github.com/MarErm27/GoAdmin/tests"
+	"github.com/MarErm27/GoAdmin/tests/common"
+	"github.com/MarErm27/GoAdmin/tests/frameworks/gin"
+	"github.com/MarErm27/GoAdmin/tests/web"
 	"github.com/gavv/httpexpect"
 	"log"
 	"testing"
@@ -1414,7 +1414,7 @@ var readme = `# GoAdmin Instruction
 
 GoAdmin is a golang framework help gopher quickly build a data visualization platform. 
 
-- [github](https://github.com/MarErm27/go-admin)
+- [github](https://github.com/MarErm27/GoAdmin)
 - [forum](http://discuss.go-admin.com)
 - [document](https://book.go-admin.cn)
 
@@ -1457,7 +1457,7 @@ var readmeCN = `# GoAdmin 介绍
 
 GoAdmin 是一个帮你快速搭建数据可视化管理应用平台的框架。 
 
-- [github](https://github.com/MarErm27/go-admin)
+- [github](https://github.com/MarErm27/GoAdmin)
 - [论坛](http://discuss.go-admin.com)
 - [文档](https://book.go-admin.cn)
 

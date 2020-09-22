@@ -6,19 +6,19 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/MarErm27/go-admin/template/types"
+	"github.com/MarErm27/GoAdmin/template/types"
 
-	"github.com/MarErm27/go-admin/context"
-	"github.com/MarErm27/go-admin/modules/auth"
-	"github.com/MarErm27/go-admin/modules/config"
-	"github.com/MarErm27/go-admin/modules/db"
-	"github.com/MarErm27/go-admin/modules/errors"
-	"github.com/MarErm27/go-admin/plugins/admin/modules/constant"
-	"github.com/MarErm27/go-admin/plugins/admin/modules/form"
-	"github.com/MarErm27/go-admin/plugins/admin/modules/parameter"
-	"github.com/MarErm27/go-admin/plugins/admin/modules/response"
-	"github.com/MarErm27/go-admin/plugins/admin/modules/table"
-	"github.com/MarErm27/go-admin/template"
+	"github.com/MarErm27/GoAdmin/context"
+	"github.com/MarErm27/GoAdmin/modules/auth"
+	"github.com/MarErm27/GoAdmin/modules/config"
+	"github.com/MarErm27/GoAdmin/modules/db"
+	"github.com/MarErm27/GoAdmin/modules/errors"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/constant"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/form"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/parameter"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/response"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/table"
+	"github.com/MarErm27/GoAdmin/template"
 )
 
 type ShowFormParam struct {

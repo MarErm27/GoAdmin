@@ -4,10 +4,10 @@ import (
 	"html/template"
 	"strconv"
 
-	"github.com/MarErm27/go-admin/context"
-	"github.com/MarErm27/go-admin/modules/auth"
-	"github.com/MarErm27/go-admin/modules/errors"
-	"github.com/MarErm27/go-admin/plugins/admin/modules/form"
+	"github.com/MarErm27/GoAdmin/context"
+	"github.com/MarErm27/GoAdmin/modules/auth"
+	"github.com/MarErm27/GoAdmin/modules/errors"
+	"github.com/MarErm27/GoAdmin/plugins/admin/modules/form"
 )
 
 type MenuEditParam struct {

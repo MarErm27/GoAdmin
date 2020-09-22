@@ -9,17 +9,17 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/MarErm27/go-admin/context"
-	"github.com/MarErm27/go-admin/modules/auth"
-	"github.com/MarErm27/go-admin/modules/config"
-	"github.com/MarErm27/go-admin/modules/db"
-	"github.com/MarErm27/go-admin/modules/errors"
-	"github.com/MarErm27/go-admin/modules/logger"
-	"github.com/MarErm27/go-admin/modules/menu"
-	"github.com/MarErm27/go-admin/plugins"
-	"github.com/MarErm27/go-admin/plugins/admin/models"
-	"github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/types"
+	"github.com/MarErm27/GoAdmin/context"
+	"github.com/MarErm27/GoAdmin/modules/auth"
+	"github.com/MarErm27/GoAdmin/modules/config"
+	"github.com/MarErm27/GoAdmin/modules/db"
+	"github.com/MarErm27/GoAdmin/modules/errors"
+	"github.com/MarErm27/GoAdmin/modules/logger"
+	"github.com/MarErm27/GoAdmin/modules/menu"
+	"github.com/MarErm27/GoAdmin/plugins"
+	"github.com/MarErm27/GoAdmin/plugins/admin/models"
+	"github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/types"
 )
 
 // WebFrameWork is an interface which is used as an adapter of

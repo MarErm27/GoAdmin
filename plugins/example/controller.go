@@ -3,12 +3,12 @@ package example
 import (
 	"html/template"
 
-	"github.com/MarErm27/go-admin/context"
-	"github.com/MarErm27/go-admin/modules/auth"
-	"github.com/MarErm27/go-admin/modules/page"
-	template2 "github.com/MarErm27/go-admin/template"
-	"github.com/MarErm27/go-admin/template/chartjs"
-	"github.com/MarErm27/go-admin/template/types"
+	"github.com/MarErm27/GoAdmin/context"
+	"github.com/MarErm27/GoAdmin/modules/auth"
+	"github.com/MarErm27/GoAdmin/modules/page"
+	template2 "github.com/MarErm27/GoAdmin/template"
+	"github.com/MarErm27/GoAdmin/template/chartjs"
+	"github.com/MarErm27/GoAdmin/template/types"
 	"github.com/MarErm27/themes/adminlte/components/chart_legend"
 	"github.com/MarErm27/themes/adminlte/components/description"
 	"github.com/MarErm27/themes/adminlte/components/infobox"
